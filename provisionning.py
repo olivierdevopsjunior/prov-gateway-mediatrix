@@ -57,4 +57,4 @@ def define_request(source, ip, community, snmp_version, fileconfname, pathfile, 
 
 
 if __name__ == '__main__':
-    print(define_request(source='IBCORP', ip='192.168.0.155', community='public', snmp_version='2c',fileconfname='testcfg', pathfile='testpath', protocol=100, srvprovision="192.168.0.140:80", enableconfstart=1, urlfirmware="http://192.168.0.144/dgw.bin", enablereboot=1 ))
+    print(define_request(source='VRF', ip='192.168.0.155', community='public', snmp_version='2c',fileconfname='testcfg', pathfile='testpath', protocol=100, srvprovision="192.168.0.140:80", enableconfstart=1, urlfirmware="http://192.168.0.144/dgw.bin", enablereboot=1 ))
